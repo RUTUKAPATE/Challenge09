@@ -1,18 +1,53 @@
 -- import: fastn
 
--- fastn.package: rutukapate.github.io/challenge9
-favicon: /-/rutukapate.github.io/challenge9/favicon.ico
+-- fastn.package: rutukapate.github.io/challenge09
+favicon: /-/rutukapate.github.io/challenge09/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: rutukapate.github.io/challenge9/FASTN/ds
--- fastn.auto-import: rutukapate.github.io/challenge9/assets
+-- fastn.auto-import: rutukapate.github.io/challenge09/FASTN/ds
+-- fastn.auto-import: rutukapate.github.io/challenge09/assets
 -- fastn.auto-import: doc-site
+-- fastn.auto-import: fastn-community.github.io/doc-site/common
 
 -- fastn.sitemap:
 
 # Home: index.html
+- Creation: component/creation/
+  - Website Design: component/websitedesign/
+  - Website Templates: component/websitetemplate/
+  - Advanced Web Development: component/advancedwebdevelopment/
+  - Mobile App: component/mobileapp/
+- Business: component/business/
+  - eCommerce Website: component/ecommercewebsite/
+  - Service Businesses: component/servicebusinesses/
+  - Restaurants: component/restaurants/
+  - Blog Website: component/blogwebsite/
+  - Fitness: component/fitness/
+- Resources: component/resources/
+  - All Features: component/all/
+  - Web Design Inspiration: component/webdesigninspiration/
+  - Fastn Learn: component/fastnlearn/
+  - Fastn Blog: component/fastnblog/  
+- Pricing: component/pricing/
+- Support: component/support/
+- Fastn Studio: component/fastnstudio/
 
-- Right Sidebar Sample: /sidebar/
+# Blog: /blog/
+- Blogs: /blog/
+  - Post-1: post/post-1/
+  - Post-2: post/post-2/
+  - Post-3: post/post-3/
+  - Post-4: post/post-4/
+  - Post-5: post/post-5/
+  - Post-6: post/post-6/
+  - Post-7: post/post-7/
+  - Post-8: post/post-8/
+
+# Store: /store/
+
+# About: /author/
+
+# Contact: /contact/
