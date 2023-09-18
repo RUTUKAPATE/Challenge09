@@ -1,40 +1,132 @@
--- ds.page: Welcome to doc-site
+-- import: rutukapate.github.io/challenge09/assets
 
+-- ds.page:
+document-title: Fastn Blog doc-site
+site-name: Rutuja K.
+github-url: https://github.com/rutukapate/challenge9
+github-icon: true
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.container:
+margin.px: 10
+padding.px: 10
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ds.h0: Blog template that sets you up for success
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ds.image: Create a Website without limits
+width: fill-container
+src: https://www.shutterstock.com/shutterstock/photos/1029506242/display_1500/stock-photo-blogging-blog-concepts-ideas-with-white-worktable-1029506242.jpg
 
--- ds.h3: 🚀 Fast Track 
+Let's make an impact together to stand with the people of Ukraine.
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- end: ds.image
 
--- ds.h3: 🌟 Whats next?
+-- ds.h3: Build and scale with confidence. From a powerful website builder to advanced buisness solutions--we've got youu covered.
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- ds.h1: One Platform, Infinite Possibilities
 
--- ds.h3: 👀 Want to learn more?
+-- ftd.row:
+spacing.fixed.px: 10
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.column:
+margin.px: 5
 
+-- ftd.text: Unlimited creation
 
--- ds.h3: 🎯 Used by?
+-- ftd.text: Create a website with a complete suite of advanced functionalities and bring your vision to life.
 
-Our all documentation sites uses this `doc-site` theme.
+-- end: ftd.column
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.column:
+margin.px: 5
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text: Powerful infrastructure
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: Get an enterprise-grade foundation, engineered for your limitless scalability and peace of mind.
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: The place for growth
+
+-- ftd.text: Convert and scale seamlessly with built-in marketing and business solutions.
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+margin-top.px: 20 
+
+-- ds.h2: Build more than a website
+
+-- ftd.column:
+
+-- ds.markdown:
+
+From selling online, starting a blog and organizing events to promoting your business and building your community, create a website that can grow with you.
+
+-- ftd.text: Read More
+link: /blog
+border-width.px: 3
+background.solid: black 
+color: white
+border-radius.px: 10
+padding.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: Faster Loading
+
+-- ftd.text: Wix is designed for performance so your site loads faster.
+
+-- ftd.text: Resilient infrastructure
+
+-- ftd.text: Multi-cloud hosting ensures 99.9% uptime, even during traffic spikes.
+
+-- ftd.text: Get Started
+link: /blog
+border-width.px: 3
+background.solid: black 
+color: white
+border-radius.px: 10
+padding.px: 10
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: Built with SEO in mind
+
+-- ftd.text: Get the SEO capabilities you need to optimize your site for search visibility.
+
+-- ftd.text: Accessible for everyone
+
+-- ftd.text: Make your own website inclusive with built-in accessibility tools.
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: Enterprise-grade security
+
+-- ftd.text: We keep your site and visitors’ data protected, 24/7.
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.container
 
 -- end: ds.page
