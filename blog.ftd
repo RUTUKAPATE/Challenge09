@@ -13,6 +13,10 @@ document-title: Fastn Blog doc-site
 site-name: Rutuja K.
 document-description: Simple, easy-to-use blog template to build your own documentation blog, personal blog, or buisness blog. Change colours and typography effortlessly.
 
+-- ftd.container:
+margin.px: 10
+padding.px: 10
+
 -- ds.posts:
 
 -- ds.image-first:
@@ -34,5 +38,7 @@ post-data: $post-5.meta
 post-data: $post-6.meta
 
 -- end: ds.posts
+
+-- end: ftd.container
 
 -- end: ds.page

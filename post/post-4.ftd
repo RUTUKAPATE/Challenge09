@@ -14,6 +14,10 @@ site-name: Rutuja K.
 document-description: Simple, easy-to-use blog template to build your own documentation blog, personal blog, or buisness blog. Change colours and typography effortlessly.
 document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
 
+-- ftd.container:
+margin.px: 10
+padding.px: 10
+
 -- ds.post: 
 meta: $meta
 
@@ -40,5 +44,7 @@ Blogging gives your site a voice, so let your business’ personality shine thro
 -- ds.h1: Get Inspired
 
 To keep up with all things Wix, including website building tips and interesting articles, head over to the Wix Blog. You may even find yourself inspired to start crafting your own blog, adding unique content, and stunning images and videos. Start creating your own blog now. Good luck!
+
+-- end: ftd.container
 
 -- end: ds.page
