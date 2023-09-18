@@ -10,11 +10,12 @@ github-icon: true
 margin.px: 10
 padding.px: 10
 
--- ds.h0: Blog template that sets you up for success
+-- ds.h0: Get inspired, gain new skills and see what's trending
 
 -- ds.image: Create a Website without limits
 width: fill-container
-src: https://www.shutterstock.com/shutterstock/photos/1029506242/display_1500/stock-photo-blogging-blog-concepts-ideas-with-white-worktable-1029506242.jpg
+src: https://static.wixstatic.com/media/72c0b2_58cde2ebb708454fb4aa74c2b5c1b648~mv2.png/v1/fill/w_740,h_423,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/72c0b2_58cde2ebb708454fb4aa74c2b5c1b648~mv2.png
+link: /blog
 
 Let's make an impact together to stand with the people of Ukraine.
 
@@ -31,8 +32,12 @@ spacing.fixed.px: 10
 margin.px: 5
 
 -- ftd.text: Unlimited creation
+region: h2
+color: $inherited.colors.text
 
 -- ftd.text: Create a website with a complete suite of advanced functionalities and bring your vision to life.
+color: $inherited.colors.text
+margin-top.px: 5
 
 -- end: ftd.column
 
@@ -40,8 +45,12 @@ margin.px: 5
 margin.px: 5
 
 -- ftd.text: Powerful infrastructure
+region: h2
+color: $inherited.colors.text
 
 -- ftd.text: Get an enterprise-grade foundation, engineered for your limitless scalability and peace of mind.
+color: $inherited.colors.text
+margin-top.px: 5
 
 -- end: ftd.column
 
@@ -49,17 +58,43 @@ margin.px: 5
 margin.px: 5
 
 -- ftd.text: The place for growth
+region: h2
+color: $inherited.colors.text
 
 -- ftd.text: Convert and scale seamlessly with built-in marketing and business solutions.
+color: $inherited.colors.text
+margin-top.px: 5
 
 -- end: ftd.column
 
 -- end: ftd.row
 
--- ftd.row:
-margin-top.px: 20 
+-- ftd.column:
+align-content: center
+color: $inherited.colors.text
+background.solid: black
+height.fixed.px: 300
+padding.px: 10
 
--- ds.h2: Build more than a website
+-- ftd.text: Website templates that set you up for success
+region: h1
+
+-- ftd.text: Get a head start on your journey with 900+ free, customizable website templates, strategically researched and tailored for every industry — or start from a blank canvas on our website builder.
+text-align: center
+margin-top.px: 10
+
+-- ftd.text: Get Started
+link: /blog
+border-width.px: 3
+background.solid: black 
+color: white
+border-radius.px: 10
+padding.px: 10
+margin-top.px: 10
+
+-- end: ftd.column
+
+-- ds.h1: Build more than a website
 
 -- ftd.column:
 
@@ -74,24 +109,32 @@ background.solid: black
 color: white
 border-radius.px: 10
 padding.px: 10
+margin-top.px: 10
 
 -- end: ftd.column
 
--- end: ftd.row
-
 -- ftd.row:
-spacing.fixed.px: 10
+margin-top.px: 10
+background.solid: grey
+height: hug-content
+
+-- ftd.image:
+src: https://4.bp.blogspot.com/-hj9k_tM2bk8/UGF0CL3spmI/AAAAAAAAAFM/OU_RwXdAwn4/w1200-h630-p-k-no-nu/Heading-Tags.jpg
 
 -- ftd.column:
-margin.px: 5
+padding.px: 10
+color: $inherited.colors.text-strong
 
--- ftd.text: Faster Loading
+-- ftd.text: And create it your way
+region: h1
 
--- ftd.text: Wix is designed for performance so your site loads faster.
+-- ds.markdown: 
 
--- ftd.text: Resilient infrastructure
-
--- ftd.text: Multi-cloud hosting ensures 99.9% uptime, even during traffic spikes.
+-  Smart drag and drop editor
+-  1000s of advanced design capabilities
+-  Custom domain, logo and more brand tools
+-  Full-stack web dev tools for custom functionality
+-  AI technology that creates a site for you
 
 -- ftd.text: Get Started
 link: /blog
@@ -100,6 +143,46 @@ background.solid: black
 color: white
 border-radius.px: 10
 padding.px: 10
+margin-top.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ds.h1: A website foundation engineered for growth
+
+-- ftd.row:
+spacing.fixed.px: 10
+margin-top.px: 20
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.text: Faster Loading
+region: h2
+color: $inherited.colors.text
+
+-- ftd.text: Wix is designed for performance so your site loads faster.
+color: $inherited.colors.text
+margin-top.px: 5
+
+-- ftd.text: Resilient infrastructure
+region: h2
+color: $inherited.colors.text
+padding-top.px: 10
+
+-- ftd.text: Multi-cloud hosting ensures 99.9% uptime, even during traffic spikes.
+color: $inherited.colors.text
+margin-top.px: 5
+
+-- ftd.text: Get Started
+link: /blog
+border-width.px: 3
+background.solid: black 
+color: white
+border-radius.px: 10
+padding.px: 10
+margin-top.px: 10
 
 -- end: ftd.column
 
@@ -107,12 +190,21 @@ padding.px: 10
 margin.px: 5
 
 -- ftd.text: Built with SEO in mind
+region: h2
+color: $inherited.colors.text
 
 -- ftd.text: Get the SEO capabilities you need to optimize your site for search visibility.
+color: $inherited.colors.text
+margin-top.px: 5
 
 -- ftd.text: Accessible for everyone
+region: h2
+color: $inherited.colors.text
+padding-top.px: 10
 
 -- ftd.text: Make your own website inclusive with built-in accessibility tools.
+color: $inherited.colors.text
+margin-top.px: 5
 
 -- end: ftd.column
 
@@ -120,12 +212,181 @@ margin.px: 5
 margin.px: 5
 
 -- ftd.text: Enterprise-grade security
+region: h2
+color: $inherited.colors.text
 
 -- ftd.text: We keep your site and visitors’ data protected, 24/7.
+color: $inherited.colors.text
 
 -- end: ftd.column
 
 -- end: ftd.row
+
+-- ftd.column:
+background.solid: grey
+color: $inherited.colors.text-strong
+align-content: center
+margin-top.px: 10
+
+-- ftd.text: Take your business where it needs to go
+region: h1
+margin.px: 10
+
+-- ftd.row:
+padding.px: 20
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/dfb81e_257f1d9f514d417c9660215dde672f0a~mv2.jpg/v1/fill/w_454,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Online%20shop_1128x1134.jpg
+
+-- ftd.text: eCommerce
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Sell online and manage your business with powerful eCommerce solutions.
+margin-top.px: 10
+
+-- ftd.row:
+spacing.fixed.px: 20
+margin-top.px: 20
+
+-- ftd.text: Create Your eCommerce Site -->
+border-bottom-width.px: 3
+link: component/ecommercewebsite/ 
+
+-- ftd.text: Learn How -->
+border-bottom-width.px: 3
+link: component/fastnlearn/
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/0784b1_d98f3b72879248c8801212b43b2f7e73~mv2.jpg/v1/fill/w_450,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f-1.jpg
+
+-- ftd.text: Blog
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Create a free blog, grow a loyal audience and monetize your content.
+margin-top.px: 10
+
+-- ftd.row:
+spacing.fixed.px: 20
+margin-top.px: 20
+
+-- ftd.text: Create Your Own Blog -->
+border-bottom-width.px: 3
+link: component/fastnlearn/
+
+-- ftd.text: Learn How -->
+border-bottom-width.px: 3
+link: blog/
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+padding.px: 20
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/0784b1_5712f0391ef5415e957eea70b568a6cd~mv2.jpg/v1/fill/w_450,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/scheduling.jpg
+
+-- ftd.text: Scheduling Software
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Offer your services and deliver a seamless booking experience for your clients.
+margin-top.px: 10
+
+-- ftd.text: Add Your Service -->
+border-bottom-width.px: 3
+margin-top.px: 20
+link: component/servicebusinesses/
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/0784b1_c38d28e951b943afb8ce77f46d40064c~mv2.jpg/v1/fill/w_450,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f-3.jpg
+
+-- ftd.text: Portfolio
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Increase your visibility and attract new clients with your work.
+margin-top.px: 10
+
+-- ftd.text: Create Your Portfolio -->
+border-bottom-width.px: 3
+margin-top.px: 20
+link: component/websitetemplate/
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+padding.px: 20
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/0784b1_6cba5e379b1b42bfbc8a4105c24ca4d7~mv2.jpg/v1/fill/w_450,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f-5.jpg
+
+-- ftd.text: Domain and Hosting
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Get scalable, free web hosting when you create your own website, and connect a professional domain name.
+margin-top.px: 10
+
+-- ftd.text: Create a Site -->
+border-bottom-width.px: 3
+margin-top.px: 20
+link: component/websitedesign/
+
+-- end: ftd.column
+
+-- ftd.column:
+margin.px: 5
+
+-- ftd.image:
+src: https://static.wixstatic.com/media/0784b1_335406154fc24aedaa951f6b2dd51445~mv2.jpg/v1/fill/w_450,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f-4.jpg
+
+-- ftd.text: Branding Tools
+region: h2
+margin-top.px: 15
+
+-- ftd.text: Establish a strong brand identity with a customizable logo, color and text themes, and more.   
+margin-top.px: 10
+
+-- ftd.text: Learn How -->
+border-bottom-width.px: 3
+margin-top.px: 20
+link: component/fastnlearn/
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
 
 -- end: ftd.container
 
